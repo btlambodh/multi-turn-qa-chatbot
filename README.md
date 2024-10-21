@@ -23,6 +23,8 @@ This project implements a QnA chatbot that can handle multi-turn interactions by
 
 ## System Architecture
 The architecture follows a **Retrieval-Augmented Generation (RAG)** approach, which involves two main components:
+<img width="981" alt="Screenshot 2024-10-20 at 7 26 55 PM" src="https://github.com/user-attachments/assets/a140c15a-6f84-49d9-b07f-0dc6e986302f">
+
 1. **Retrieval**: 
    - Uses FAISS to index and retrieve relevant document chunks from the dataset.
    - Pre-trained models like `sentence-transformers/all-MiniLM-L6-v2` are used to embed the documents into vectors.
