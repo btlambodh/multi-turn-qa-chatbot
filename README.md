@@ -18,7 +18,7 @@ This project implements a QnA chatbot that can handle multi-turn interactions by
 - **Multi-turn Conversations**: Keeps track of chat history for smooth QnA flow across multiple turns.
 - **Efficient Document Retrieval**: Utilizes **FAISS** for fast retrieval of contextually relevant passages.
 - **Answer Generation**: Uses transformer-based models to generate human-like responses.
-- **User Interface**: Interactive **Streamlit** interface for users to ask questions and view retrieved documents.
+- **User Interface**: Interactive **Gradio** interface for users to ask questions and view retrieved documents.
 - **Real-time Visualization**: Displays document embeddings and similarity scores for each query.
 
 ## System Architecture
